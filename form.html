@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> paytem form</title>
+</head>
+<body>
+    <form action="">
+<h1> payment from</h1>
+<p>Required Fileds are followed by *</p>
+
+<h2>contact Infromation</h2>
+<p><input type="text"name="name">  </p>  
+<p>
+<fieldset>
+
+    Male<input type="radio" name="gender" id="gender">Female<input type="radio" name="gender" id="" required>
+</p>
+
+</fieldset>
+
+<p>Address:*<textarea name="address" cols="100" rows="6"></textarea required></p>
+
+<p>Email:*<input type="email" name="email" id="email" required></p>
+<p>Pincode:*<input type="number" name="pincode" id="pincode" required></p>
+<h1>paytem Infromation</h2>
+    <p>Card Type:
+<select name="card type" id="card_type">
+<option value="">--Select a Card Type--</option>
+<option value="visa">visa</option>
+<option value="rupay">rupay</option>
+<option value="mastercard">mastercard</option>
+</select>
+
+
+
+    </p>
+<p>
+Card number *<input type="number" name="card_number" id="card_number" required></p>
+
+
+
+<p>
+    Expiration date:* <input type="date" name="exp_date"></p>
+
+    <p>cvv *<input type="password " name="cvv" id="cvv" required></p>
+<input type="submit" value="pay Now">
+</form>
+
+
+
+
+</body>
+</html>
